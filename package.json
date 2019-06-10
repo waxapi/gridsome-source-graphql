@@ -1,28 +1,25 @@
 {
-  "version": "0.1.0",
-  "name": "@gridsome/source-graphql",
-  "description": "GraphQL source for Gridsome",
-  "homepage": "https://github.com/gridsome/gridsome/tree/master/packages/source-graphql#readme",
-  "repository": "https://github.com/gridsome/gridsome/tree/master/packages/source-graphql",
+  "name": "gridsome-source-graphql",
+  "version": "1.0.0",
+  "description": "Forked to allow mutations.",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://waxapi@github.com/waxapi/gridsome-source-graphql.git"
+  },
   "keywords": [
-    "gridsome",
-    "gridsome-plugin",
-    "gridsome-source"
+    "gridonis",
+    "graphql",
+    "source",
+    "apollo"
   ],
-  "dependencies": {
-    "apollo-link-context": "^1.0.17",
-    "apollo-link-http": "^1.5.14",
-    "graphql-tools": "^4.0.4",
-    "node-fetch": "^2.6.0"
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waxapi/gridsome-source-graphql/issues"
   },
-  "peerDependencies": {
-    "gridsome": "0.x"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "engines": {
-    "node": ">=8"
-  }
+  "homepage": "https://github.com/waxapi/gridsome-source-graphql#readme"
 }

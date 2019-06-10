@@ -8,8 +8,8 @@ original: https://gridsome.org/plugins/@gridsome/source-graphql
 
 ## Install
 
-- `yarn add @gridsome/source-graphql`
-- `npm install @gridsome/source-graphql`
+- `yarn add gridsome-source-graphql`
+- `npm install gridsome-source-graphql`
 
 ## Usage
 
@@ -17,7 +17,7 @@ original: https://gridsome.org/plugins/@gridsome/source-graphql
 module.exports = {
   plugins: [
     {
-      use: '@gridsome/source-graphql',
+      use: 'gridsome-source-graphql',
       options: {
         url: 'https://example.com/api',
         fieldName: 'puppies',
