@@ -1,11 +1,11 @@
 {
   "version": "1.0.2",
-  "name": "@gridsome/source-graphql",
+  "name": "gridsome-source-graphql",
   "description": "GraphQL source for Gridsome",
-  "homepage": "https://github.com/gridsome/gridsome/tree/master/packages/source-graphql#readme",
+  "homepage": "https://github.com/waxapi/gridsome-source-graphql",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gridsome/gridsome/tree/master/packages/source-graphql"
+    "url": "https://github.com/waxapi/gridsome-source-graphql"
   },
   "main": "index.js",
   "keywords": [
