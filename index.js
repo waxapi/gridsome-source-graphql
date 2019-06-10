@@ -70,9 +70,9 @@ class GraphQLSource {
 
   namespaceSchema (schema, fieldName, typeName) {
     return transformSchema(schema, [
-      new StripNonQueryTransform(),
+      // new StripNonQueryTransform(),
       new RenameTypes(name => `${typeName}_${name}`),
-      new NamespaceUnderFieldTransform(typeName, fieldName)
+      // new NamespaceUnderFieldTransform(typeName, fieldName)
     ])
   }
 }
