@@ -1,3 +1,7 @@
+Forked to allow mutations. 
+
+original: https://gridsome.org/plugins/@gridsome/source-graphql
+
 # @gridsome/source-graphql
 
 > Pull a remote GraphQL schema in locally
